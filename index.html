@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
-  <title>NFT Preview Card Component</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="container">
-    <article class="card">
+<main class="container">
+  <section class="card-list">
+    <!-- Card 1 -->
+    <article class="card animate__animated animate__fadeInUp">
       <div class="card-image-wrapper">
         <img src="image-equilibrium.jpg" alt="Equilibrium NFT" class="card-image" />
-        <div class="overlay">
-          <img src="icon-view.svg" alt="Ícone de visualização" />
-        </div>
+        <div class="overlay"><img src="icon-view.svg" alt="Ícone de visualização" /></div>
       </div>
       <h2 class="card-title">Equilibrium #3429</h2>
       <p class="card-description">Our Equilibrium collection promotes balance and calm.</p>
@@ -28,6 +18,43 @@
         <p>Creation of <a href="#">Jules Wyvern</a></p>
       </footer>
     </article>
-  </main>
-</body>
-</html>
+
+    <!-- Card 2 (Leonardo.ai) -->
+    <article class="card animate__animated animate__fadeInUp animate__delay-1s">
+      <div class="card-image-wrapper">
+        <img src="image-nft-2.jpg" alt="Cyber Sphere NFT" class="card-image" />
+        <div class="overlay"><img src="icon-view.svg" alt="Ícone de visualização" /></div>
+      </div>
+      <h2 class="card-title">Cyber Sphere #108</h2>
+      <p class="card-description">A futuristic digital relic sculpted with glowing neon elements.</p>
+      <div class="card-info">
+        <span class="price"><img src="icon-ethereum.svg" alt="ETH" /> 0.095 ETH</span>
+        <span class="time-left"><img src="icon-clock.svg" alt="Relógio" /> 1 day left</span>
+      </div>
+      <hr class="divider" />
+      <footer class="card-author">
+        <img src="image-avatar.png" alt="Aria Vance" class="avatar" />
+        <p>Creation of <a href="#">Aria Vance</a></p>
+      </footer>
+    </article>
+
+    <!-- Card 3 (Leonardo.ai) -->
+    <article class="card animate__animated animate__fadeInUp animate__delay-2s">
+      <div class="card-image-wrapper">
+        <img src="image-nft-3.jpg" alt="Neon Crystal NFT" class="card-image" />
+        <div class="overlay"><img src="icon-view.svg" alt="Ícone de visualização" /></div>
+      </div>
+      <h2 class="card-title">Neon Crystal #774</h2>
+      <p class="card-description">Geometric crystal structure harnessing raw synthetic energy.</p>
+      <div class="card-info">
+        <span class="price"><img src="icon-ethereum.svg" alt="ETH" /> 0.150 ETH</span>
+        <span class="time-left"><img src="icon-clock.svg" alt="Relógio" /> 12 hours left</span>
+      </div>
+      <hr class="divider" />
+      <footer class="card-author">
+        <img src="image-avatar.png" alt="Kaelen Dex" class="avatar" />
+        <p>Creation of <a href="#">Kaelen Dex</a></p>
+      </footer>
+    </article>
+  </section>
+</main>
