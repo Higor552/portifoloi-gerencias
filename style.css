@@ -78,9 +78,7 @@ body {
   transition: color 0.3s;
 }
 
-.nav-link:hover {
-  color: var(--cyan);
-}
+
 
 .btn-connect {
   background-color: transparent;
@@ -115,7 +113,7 @@ body {
   max-width: 1100px;
 }
 
-/* --- CARD COMPONENT --- */
+
 .card {
   background-color: var(--bg-card);
   padding: 1.5rem;
